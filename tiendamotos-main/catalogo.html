@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylecatalogo.css">
+</head>
+<body>
+    <!-- Barra de navegación superior -->
+    <nav class="top-nav">
+        <div class="brand-logo">
+            <img src="img/logo.png" alt="Logo de tu marca">
+        </div>
+        <ul>
+            <li><a href="home.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catálogo Digital</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+     <!-- Barra de navegación secundaria -->
+     <nav class="secondary-nav">
+        <div class="brand2-logo">
+            <img src="" alt="">
+        </div>
+        <ul class="product-list">
+            <li><a href="#departamento">Departamento</a></li>
+            <li><a href="#opiniones">Opiniones</a></li>
+            <li><a href="#precio">Precio</a></li>
+            <li><a href="#descuento">Descuento</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <aside class="sidebar">
+            <h2 id="departamento">Departamento</h2>
+        <label><input type="radio" name="department" checked> Todo</label>
+        <label><input type="radio" name="department"> Aceites</label>
+        <label><input type="radio" name="department"> Limpieza</label>
+        <label><input type="radio" name="department"> Bujias</label>
+        <label><input type="radio" name="department"> Llantas</label>
+        
+        <h2 id="opiniones">Opiniones</h2>
+        <label><input type="radio" name="rating" checked> Todo</label>
+        <label><input type="radio" name="rating"> 4 estrellas y más</label>
+        <label><input type="radio" name="rating"> 3 estrellas y más</label>
+        <label><input type="radio" name="rating"> 2 estrellas y más</label>
+        <label><input type="radio" name="rating"> 1 estrella y más</label>
+
+        <h2 id="precio">Precio</h2>
+        <label><input type="radio" name="price" checked> Todo</label>
+        <label><input type="radio" name="price"> Menos de $250</label>
+        <label><input type="radio" name="price"> $250 a $500</label>
+        <label><input type="radio" name="price"> $500 a $1,000</label>
+        <label><input type="radio" name="price"> $1,000 a $5,000</label>
+        <label><input type="radio" name="price"> Más de $5,000</label>
+
+        <h2 id="descuento">Descuento</h2>
+        <label><input type="radio" name="discount" checked> Todo</label>
+        <label><input type="radio" name="discount"> 10% de descuento o más</label>
+        <label><input type="radio" name="discount"> 25% de descuento o más</label>
+        <label><input type="radio" name="discount"> 50% de descuento o más</label>
+        <label><input type="radio" name="discount"> 70% de descuento o más</label>
+
+            <!-- Catalogo de Productos -->
+
+        </aside>
+
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="img/m1.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>sportster 778cc</p>
+                <div class="price">
+                    <span class="current-price">$130 000</span>
+                    <span class="original-price">$29 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m2.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>Softail 1200cc</p>
+                <div class="price">
+                    <span class="current-price">$120 000</span>
+                    <span class="original-price">$19 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m3.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>V-Rod 998cc</p>
+                <div class="price">
+                    <span class="current-price">$150 000</span>
+                    <span class="original-price">$29 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m4.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>Dyna 1208cc</p>
+                <div class="price">
+                    <span class="current-price">$180 000</span>
+                    <span class="original-price">$19 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m5.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>sportster 978cc</p>
+                <div class="price">
+                    <span class="current-price">$100 000</span>
+                    <span class="original-price">$9 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m6.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>Softail 998cc</p>
+                <div class="price">
+                    <span class="current-price">$200 000</span>
+                    <span class="original-price">$59 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m7.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>Touring 1200cc</p>
+                <div class="price">
+                    <span class="current-price">$110 000</span>
+                    <span class="original-price">$9 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m8.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>Street 778cc</p>
+                <div class="price">
+                    <span class="current-price">$130 000</span>
+                    <span class="original-price">$29 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m9.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>Dyna 1878cc</p>
+                <div class="price">
+                    <span class="current-price">$130 000</span>
+                    <span class="original-price">$29 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m10.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>sport 778cc</p>
+                <div class="price">
+                    <span class="current-price">$130 000</span>
+                    <span class="original-price">$29 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m11.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>V-Rod 1800cc</p>
+                <div class="price">
+                    <span class="current-price">$130 000</span>
+                    <span class="original-price">$29 999</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/m1.png" alt="Producto 1">
+                <h3>Harley Davidson</h3>
+                <p>sportster 778cc</p>
+                <div class="price">
+                    <span class="current-price">$120 000</span>
+                    <span class="original-price">$0</span>
+                </div>
+                <button>Comprar</button>
+            </div>
+            <!-- Más tarjetas de productos -->
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column footer-contact">
+                <h3>Contacto</h3>
+                <p> * Calle: Herny Dunant 32417</p>
+                <p> * Telefono: +52 656 532 66 55</p>
+                <p> * Email: al204826@alumnos.uacj.mx</p>
+                <div class="footer-social">      
+                    <a href="https://www.facebook.com/LicDDMI"><img src="img/facebook.png" alt="Facebook"></a>
+                    <a href="https://x.com/RegalosDigitals"><img src="img/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/zbalosch/"><img src="img/instagram.png" alt="Instagram"></a>       
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="home.html">Inicio</a></li>
+                    <li><a href="catalogo.html">Catalogo Digital</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="index.html">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Nuestros Servicios</h3>
+                <ul>
+                    <li><a href="#">Cambios de Aceite</a></li>
+                    <li><a href="#">Afinación de Punterias</a></li>
+                    <li><a href="#">Modificaciones Custom</a></li>
+                    <li><a href="#">Carenado</a></li>
+                    <li><a href="#">Cambios de Motos</a></li>
+                </ul>
+            </div>
+            <div class="footer-column footer-newsletter">
+                <h3>Comentanos</h3>
+                <p>Tus comentarios son importantes.</p>
+                <form>
+                    <input type="email" placeholder="¡Escribenos!">
+                    <button type="submit">Subir</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
