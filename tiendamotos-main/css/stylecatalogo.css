@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'fuente1';
+    src: url('/fuentes/Kanit/Kanit-Regular.ttf'),
+         url('/fuentes/Libre_Baskerville/LibreBaskerville-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: fuente1;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brand-logo img {
+    height: 70px;
+    margin-left: 50px;
+}
+
+/* Estilos para la barra de navegación superior */
+.top-nav {
+    background-color: #1d1c1c;
+    color: #fff;
+    padding: 3px 0;
+    align-items: right;
+    font-size: 24px;
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+.top-nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.top-nav ul li a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Estilos para la barra de navegación secundaria */
+.secondary-nav {
+    background-color: #272727;
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondary-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.brand2-logo img {
+    height: 50px;
+}
+
+.product-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.product-list li {
+    margin-right: 20px;
+    margin: 0 20px;
+}
+
+/* Contenedor principal */
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Barra Lateral */
+.sidebar {
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.sidebar label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Productos */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    padding: 70px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #888;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 10px 0;
+}
+
+.product-card .current-price {
+    font-size: 1.2em;
+    color: #e74c3c;
+    margin-right: 10px;
+}
+
+.product-card .original-price {
+    font-size: 0.9em;
+    color: #888;
+    text-decoration: line-through;
+}
+
+.product-card button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #218838;
+}
+
+.product-card button:focus {
+    outline: 2px solid #f0ad4e;
+    outline-offset: 2px;
+}
+
+/* FOOTER*/
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-column {
+    flex: 1;
+}
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+.footer-column ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+.footer-column ul li a:hover {
+    color: #fff;
+}
+.footer-contact p {
+    margin: 5px 0;
+}
+.footer-social a {
+    margin-right: 10px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-social img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.footer-social a:hover {
+    color: #fff;
+}
+.footer-newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.footer-newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0ad4e;
+    color: #111;
+    cursor: pointer;
+}
+.footer-newsletter button:hover {
+    background-color: #ec971f;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        padding: 10px;
+        margin-right: 0;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        }
+}
